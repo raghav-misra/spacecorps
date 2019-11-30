@@ -1,0 +1,7 @@
+{
+    "compilerOptions": { 
+        "jsxFactory": "Mesh.ce",
+        "jsx": "react",
+        "outDir": "../js"
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "spacecorps-frontend",
+  "version": "1.0.0",
+  "description": "A massively multi-player online game where you are in charge of your own space colony.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghav-misra/spacecorps-frontend.git"
+  },
+  "author": "raghavm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghav-misra/spacecorps-frontend/issues"
+  },
+  "homepage": "https://github.com/raghav-misra/spacecorps-frontend#readme",
+  "dependencies": {
+    "@types/jquery": "^3.3.31",
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "nodemon": "^2.0.1"
+  }
+}
