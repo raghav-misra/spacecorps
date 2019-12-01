@@ -1,3 +1,4 @@
+/* Reduce Animations CheckBox */
 let animToggle = document.querySelector("#noAnim") as HTMLInputElement;
 let back = document.querySelector("#back") as HTMLDivElement;
 animToggle.addEventListener("change", () => {

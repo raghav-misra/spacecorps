@@ -1,14 +1,4 @@
 @import url(main.css);
-@import url('https://fonts.googleapis.com/css?family=Poiret+One|Roboto+Mono&display=swap');
-
-* {
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poiret One', sans-serif;
-}
 
 body, html{
     width: 100vw;
@@ -92,4 +82,61 @@ canvas{
 	right: 0;
 	bottom: 0;
 	padding: 10px;
+}
+
+.navbar * {
+	color: white !important;
+}
+
+.navbar-toggler {
+	color: white;
+	border-color: white !important;
+}
+
+.navbar.translucent{
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	text-align: center;
+	right: 0;
+	margin: 20px 10px;
+	border-radius: 50px;
+	background: rgba(0, 0, 0, 0.400) !important;
+}
+
+
+.navbar-nav {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.navbar-nav a {
+	flex: 1;
+	color: white !important;
+	text-align: center;
+	vertical-align: bottom;
+	margin-top: 7.5px;
+}
+
+.navbar input {
+	background: none !important; 
+}
+
+.collapse.navbar-collapse {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: top;
+}
+
+.input-group.mb-3 {
+	position: relative;
+	top: 7.5px;
+}
+
+.nav-item.nav-link:hover {
+	text-decoration-line: underline;
+	text-decoration-skip: none;
 }

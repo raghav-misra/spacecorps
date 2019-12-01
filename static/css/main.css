@@ -1,1 +1,17 @@
-@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css);  
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');  
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Roboto+Mono&display=swap');
+
+* {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+    vertical-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poiret One', sans-serif;
+}
+
+.reg {
+    color: white !important;
+}

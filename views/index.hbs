@@ -9,6 +9,27 @@
 </head>
 <body id="root"> 
     <div id="back"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark translucent">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Landing <i class="fas fa-rocket"></i> <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="/play-now">Play Now!</a>
+                <a class="nav-item nav-link" href="/leaderboard">Leaderboard</a>
+                <form class="nav-item form-inline" action="/colony">
+                    <div class="input-group mb-3">
+                        <input required type="text" name="name" class="form-control" placeholder="@discord-tag#1234" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-primary" type="submit"><i class="fas fa-search-location"></i> Colony</button>
+                        </div>
+                    </div>   
+                </form>
+            </div>
+        </div>
+    </nav>
+
     <div class="flex-full">
         <h1 class="display-1">SpaceCorps</h1>
         <p class="lead">▶ <span id="typed"></span> ◀</p>
@@ -18,7 +39,7 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script>
         var options = {
-            strings: ["Explore the vast <i>Alta Galaxy<i>.", "Colonize new planets.", "Make allies and enemies on the way.", "Play Now!"],
+            strings: ["Explore the vast <i>Alta Galaxy<i>.", "Colonize new planets.", "Make allies and enemies on the way.", "<a href='/guide' class='reg lead'>Play Now!</a>"],
             typeSpeed: 40
         };
 
@@ -30,6 +51,8 @@
         <label for="noAnim">Reduce Animations</label>
     </div>
 
+    <!-- Font Awesome --> 
+    <script src="https://kit.fontawesome.com/b8185e1d28.js" crossorigin="anonymous"></script>
     <!-- Particles -->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script>particlesJS.load("root", "/assets/particles.json"); </script>
