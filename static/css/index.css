@@ -140,3 +140,23 @@ canvas{
 	text-decoration-line: underline;
 	text-decoration-skip: none;
 }
+
+@media only screen and (max-width: 991px){
+	.collapse.navbar-collapse:not(.show){
+		height: 0;
+		overflow: hidden;
+	}
+	.input-group.mb-3{
+		width: 100%;
+	}
+	nav.navbar.translucent {
+		border-radius: 25px;
+		background: rgba(0, 0, 0, 0.9) !important;
+	}
+}
+
+@media only screen and (max-width: 530px){
+	h1.display-1 {
+		font-size: 3.5rem;
+	}
+}
